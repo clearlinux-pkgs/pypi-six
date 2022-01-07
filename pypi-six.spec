@@ -4,7 +4,7 @@
 #
 Name     : pypi-six
 Version  : 1.16.0
-Release  : 81
+Release  : 82
 URL      : https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz
 Summary  : Python 2 and 3 compatibility utilities
@@ -16,6 +16,9 @@ Requires: pypi-six-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 BuildRequires : py
 BuildRequires : pytest
+Provides: six
+Provides: six-python
+Provides: six-python3
 
 %description
 .. image:: https://img.shields.io/pypi/v/six.svg
