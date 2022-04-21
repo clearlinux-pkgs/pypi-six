@@ -1,1 +1,7 @@
 # This file contains recursive sources that require this package
+apache-ant
+dbus-glib
+pypi-contextlib2
+pypi-pyscss
+retrying
+sos
